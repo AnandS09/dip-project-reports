@@ -1,0 +1,16 @@
+\section{\textsc{background}}
+
+\subsection{Neural network based object detection and tracking}
+
+Since the advent of deep neural network based image processing algorithms, object detection has proved to be a defacto task. 
+In fact the first deep learning network , Alexnet \cite{alexnet}, became famous due to its unrivalled accuracy in object detection on Imagenet dataset~\cite{imagenet}.
+
+Object tracking in a video has also been a popular problem to be solved using deep learning. 
+This problem is solved either by breaking the problem into multiple sub problems of object detection and location tracking, as demonstrated by DeepSORT \cite{deepsort}. Or alternatively by employing recurrent networks to perform end to end deep learning based tracking \cite{rolo}. The challenge in general for these task is achieving desired frame rates in real time. 
+
+% Anand: Move this to project planning
+%Achieving high performance therefore is one of the objectives of the project. We estimate that this will require fine tuning of the network architecture and multiple 
+
+Given the importance of the problem multiple datasets have been constructed and published to help researchers develop robust tracking algorithms. 
+One such dataset is TrackingNet~\cite{trackingnet} which consists of $>$ 30K video sequences, taken from open videos in YouTube to ensure diversity. 
+Other popular datasets are Microsoft COCO~\cite{microsoftcoco}, the dataset for MOT challenge~\cite{motchallenge} etc. 
